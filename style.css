@@ -1,0 +1,113 @@
+.wow {
+  width: 100px;
+}
+
+* {
+  margin: 0;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.center-align {
+  text-align: center;
+}
+
+.mono {
+  font-family: 'Roboto Mono', monospace;
+}
+
+.right-align {
+  text-align: right;
+}
+
+#button {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin: 0 auto;
+  cursor: pointer;
+}
+
+.button-red {
+  background-color: #660000;
+}
+
+.button-red-again {
+  background-color: #a30000;
+  transition: background-color 0.5s ease-in-out;
+}
+
+.button-green {
+  background-color: #28b800;
+}
+
+#start-instructions {
+  transition: color 0.5s ease-in-out, font-size 0.5s ease-in-out;
+  font-size: 20px;
+  color: black;
+}
+
+#timer {
+  transition: font-size 0.5s ease-in-out;
+  font-size: 20px;
+}
+
+#times {
+  display: flex;
+  justify-content: space-between;
+  width: 200px;
+  margin: 0 auto;
+}
+
+#best-time {
+  font-size: 20px;
+}
+
+#fail {
+  transition: color 0.5s ease-in-out, transform 0.5s ease-in-out;
+  color: rgba(0, 0, 0, 0);
+  text-align: center;
+}
+
+#bar {
+  height: 100px;
+  width: 3px;
+  background-color: black;
+}
+
+#instructions-container {
+  height: 20px;
+  margin: 10px 0;
+}
+
+#hide {
+  transition: color 0.5s ease-in-out, flex 0.5s ease-in-out;
+  text-align: center;
+  flex: 1;
+  min-width: 0;
+}
+
+#hide p {
+  transform: scale(1);
+  transition: transform 0.5s ease-in-out;
+}
+
+#bar {
+  transition: background-color 0.5s ease-in-out, transform 0.5s ease-in-out;
+}
+
+#current-time {
+  flex: 1;
+  transition: color 0.5s ease-in-out, flex 0.5s ease-in-out;
+}
+
+#other-times {
+  font-size: 12px;
+}
+
+#info {
+  transition: transform 0.5s ease-in-out;
+  font-size: 15px;
+}

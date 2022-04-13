@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Reaction Timer</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <h1 id="head" class="center-align">Reaction Timer</h1>
+
+  <div id="button" class="button-red" onclick="start()"></div>
+
+  <div id="instructions-container">
+    <h4 class="center-align" id="start-instructions">Click the button to start.</h4>
+  </div>
+  
+  <div id="times">
+    <div id="current-time">
+        <p id="timer" class="center-align mono">0.000</p>
+    </div>
+
+    <div id="bar"></div>
+
+    <div id="hide">
+      <div id="other-times">
+        <p id="best-time" class="mono">best time</p>
+        <p id="second-best">second best</p>
+        <p id="third-best">third best</p>
+      </div>
+    </div>
+    
+  </div>
+  <p id="fail">Wait until the button turns green</p>
+
+  <p id="info" class="center-align">This project uses local storage. Your data will be saved.</p>
+  
+  <script src="script.js"></script>    
+</body>
+</html>
