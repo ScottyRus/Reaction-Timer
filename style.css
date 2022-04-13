@@ -34,6 +34,7 @@ body {
 
 .button-red {
   background-color: #660000;
+  transition: background-color 0.5s ease-in-out;
 }
 
 .button-red-again {
